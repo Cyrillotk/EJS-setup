@@ -26,7 +26,7 @@ app.get("/users", (req, res) => {
     const users = [
         {
             name: "Tata Cyril",
-            email: "cyril@gmail.com",
+            email: "cyril123@gmail.com",
             role: "Developer"
         },
         {
@@ -47,6 +47,6 @@ app.get("/users", (req, res) => {
 });
 
 // Start server
-app.listen(PORT, () => {
-    console.log("server is running on ${PORT}");
+app.listen(3000, () => {
+    console.log("server is running on port 3000");
 });
