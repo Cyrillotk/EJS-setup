@@ -3,10 +3,8 @@ const express = require("express");
 const app = express();
 const PORT = 3000;
 
-// Set EJS as the view engine
 app.set("view engine", "ejs");
 
-// Serve static files from public folder
 app.use(express.static("public"));
 
 // Home page
