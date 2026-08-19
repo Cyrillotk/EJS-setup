@@ -7,13 +7,13 @@
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-<%- include partials/header%>
+
     <nav>
         <a href="/">Home</a>
         <a href="/about">About</a>
         <a href="/users">Users</a>
     </nav>
-
+<%- include ("partials/header")%>
     <div class="container">
         <h1>Welcome to My EJS Application</h1>
 
@@ -22,6 +22,6 @@
         <h2>Current Server Time</h2>
         <p><%= time %></p>
     </div>
-        <%- include partials/footer%>
+        <%- include ("partials/footer")%>
 </body>
 </html>
